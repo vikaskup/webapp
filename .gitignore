@@ -1,0 +1,47 @@
+# =========================
+# Java & Maven Git Ignore
+# =========================
+
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build JARs, WARs, etc.
+*.jar
+*.war
+*.ear
+
+# Test reports
+target/surefire-reports/
+
+# OS files
+Thumbs.db
+
+# Environment files
+.env
